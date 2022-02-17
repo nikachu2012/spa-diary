@@ -7,7 +7,6 @@ import './reset.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Write from './components/write';
 import Read from './components/read';
-import Search from './components/search';
 import View from './components/view'
 
 
@@ -27,7 +26,6 @@ ReactDOM.render(
         <Routes>
           <Route path="/write" element={<Write />} />
           <Route path="/read" element={<Read />} />
-          <Route path="/search" element={<Search />} />
           <Route path="/view" element={<View />} />
           <Route path="/" element={<Welcome />} />
           

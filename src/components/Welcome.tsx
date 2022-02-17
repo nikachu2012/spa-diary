@@ -12,16 +12,19 @@ import Topbar from './topbar'
 
 function SimpleContainer() {
   return (
-    <React.Fragment>
+    <React.Fragment >
       <Topbar />
       <CssBaseline />
       <Container>
-        <h1>日記アプリ</h1>
-        <Stack spacing={2} direction="row">
-          <Link to="/write"><Button variant="contained">日記を書く</Button></Link>
-          <Link to="/read"><Button variant="contained">日記を読む</Button></Link>
-          <Link to="/search"><Button variant="contained">日記を探す</Button></Link>
-        </Stack>
+        <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)' }}>
+          <h1>日記アプリ</h1>
+          <Stack spacing={2} direction="row">
+            <Link to="/write"><Button variant="contained">日記を書く</Button></Link>
+            <Link to="/read"><Button variant="contained">日記を読む</Button></Link>
+          </Stack>
+        </div>
+
+
       </Container>
     </React.Fragment>
   );

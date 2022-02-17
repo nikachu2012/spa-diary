@@ -51,14 +51,6 @@ const ResponsiveAppBar = () => {
                 </Button>
               </Link>
 
-              <Link to="/search">
-                <Button
-                  //onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
-                >
-                  日記を探す
-                </Button>
-              </Link>
 
             </Box>
 
