@@ -24,7 +24,7 @@ function Write() {
 
         <form>
           <label>
-            日付を数字で入力してください（例 20210101)
+            日付をカレンダーまたは数字で入力してください。
             <input type="date" name="name" id="dateinput"/>
           </label>
         </form>
